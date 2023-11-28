@@ -58,7 +58,8 @@ declare namespace CodeceptJS {
   "dontSeeCookie": "naoVejoCookie",
   "grabCookie": "pegoCookie",
   "resizeWindow": "redimensionaJanela",
-  "wait": "aguardo"
+  "wait": "aguardo",
+  "assert": "comparo"
 }
   }
 }

@@ -1,4 +1,4 @@
-const { I, assert } = inject();
+const { I } = inject();
 
 module.exports = {
 
@@ -39,7 +39,6 @@ module.exports = {
   async validarResultado(total) {
     I.tap(this.buttons.igual)
     const valor = await I.grabTextFrom(this.fields.total)
-    console.log(valor)
-    assert(valor, total)
+    I.assert(total, valor)
   }
 }

@@ -1,6 +1,9 @@
 exports.config = {
   output: './output',
   helpers: {
+    AssertWrapper : {
+      require: 'codeceptjs-assert'
+    },
     Appium: {
       appiumV2: true,
       app: '/home/xovec/code-workspace/appium-codeceptjs-test/app/calculator.apk',
