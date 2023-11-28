@@ -11,7 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "codeceptjs": "^3.5.8",
+    "codeceptjs-assert": "^0.0.5",
     "webdriverio": "^8.6.3",
-    "codeceptjs-assert": "^0.0.5"
+    "codeceptjs-resemblehelper": "^1.9.7"
   }
 }

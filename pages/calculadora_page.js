@@ -37,6 +37,8 @@ module.exports = {
   },
 
   async validarResultado(total) {
+    I.saveScreenshot("Codecept_IO_Screenshot_Image.png")
+    
     I.tap(this.buttons.igual)
     const valor = await I.grabTextFrom(this.fields.total)
     I.assert(total, valor)
