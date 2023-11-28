@@ -1,11 +1,12 @@
-/** @type {CodeceptJS.MainConfig} */
 exports.config = {
-  tests: './*_test.js',
   output: './output',
   helpers: {
+    AssertWrapper : {
+      require: 'codeceptjs-assert'
+    },
     Appium: {
       appiumV2: true,
-      app:  __dirname + '/app/calculator.apk',
+      app: '/home/xovec/code-workspace/appium-codeceptjs-test/app/calculator.apk',
       desiredCapabilities: {
         deviceName: 'jnxczdjra6zx45x4',
         platformName: 'android',
@@ -22,8 +23,33 @@ exports.config = {
     }
   },
   include: {
-    I: './steps_file.js'
+    I: './steps_file.js',
+    CalculadoraPage: './pages/calculadora_page.js'
   },
+  mocha: {},
+  bootstrap: null,
+  timeout: null,
+  teardown: null,
+  hooks: [],
+  gherkin: {
+    features: './features/*.feature',
+    steps: ['./step_definitions/calculadora_steps.js']
+  },
+  plugins: {
+    screenshotOnFail: {
+      enabled: true
+    }
+  },
+  stepTimeout: 0,
+  stepTimeoutOverride: [{
+      pattern: 'wait.*',
+      timeout: 0
+    },
+    {
+      pattern: 'amOnPage',
+      timeout: 0
+    }
+  ],
   name: 'appium-codeceptjs-test',
   translation: 'pt-BR'
 }
