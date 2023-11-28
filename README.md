@@ -6,6 +6,7 @@ Projeto de automação de testes mobile utilizando Appium, Cucumber e CodeceptJS
 - CodeceptJS: 3.5.8
 - WebdriverIO: 8.6.3
 - codeceptjs-assert: 0.0.5
+- codeceptjs-resemblehelper: 1.9.7
 
 ## Instalação
 Baixando as dependências

@@ -4,6 +4,12 @@ exports.config = {
     AssertWrapper : {
       require: 'codeceptjs-assert'
     },
+    ResembleHelper: {
+      require: 'codeceptjs-resemblehelper',
+      screenshotFolder: './tests/output/',
+      baseFolder: './tests/screenshots/base/',
+      diffFolder: './tests/screenshots/diff/'
+    },
     Appium: {
       appiumV2: true,
       app: '/home/xovec/code-workspace/appium-codeceptjs-test/app/calculator.apk',
