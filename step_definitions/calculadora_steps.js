@@ -5,9 +5,10 @@ Given('número {int}', (numA) => {
 });
 
 When('{string} com {int}', (operador, numB) => {
-  CalculadoraPage.efetuarOperacao(operador, numB)
+  CalculadoraPage.tocarOperacao(operador)
+  CalculadoraPage.tocarNumero(numB)
 });
 
-Then('resultado deve ser igual {int}', (total) => {
-  CalculadoraPage.validarResultado(total)
+Then('resultado deve ser igual {int}', async (total) => {
+  await CalculadoraPage.validarResultado(total)
 });

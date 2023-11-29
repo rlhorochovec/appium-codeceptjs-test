@@ -44,7 +44,28 @@ exports.config = {
   plugins: {
     screenshotOnFail: {
       enabled: true
-    }
+    },
+    allure: {
+      enabled: true,
+      outputDir: "./allure-results",
+      require: "allure-codeceptjs"
+    },
+    stepByStepReport: {
+      enabled: true,
+    },
+    tryTo: {
+      enabled: true
+    },
+    retryFailedStep: {
+      enabled: false
+    },
+    retryTo: {
+      enabled: true
+    },
+    eachElement: {
+      enabled: true
+    },
+    pauseOnFail: {}
   },
   stepTimeout: 0,
   stepTimeoutOverride: [{
