@@ -7,11 +7,11 @@ module.exports = {
   },
 
   buttons:{
-    mais: '~mais',
-    menos: '~menos',
-    dividir: '~dividir',
-    multiplicar: '~multiplicar',
-    igual: '~igual' 
+    mais: '#com.google.android.calculator:id/op_add',
+    menos: '#com.google.android.calculator:id/op_sub',
+    dividir: '#com.google.android.calculator:id/op_div',
+    multiplicar: '#com.google.android.calculator:id/op_mul',
+    igual: '#com.google.android.calculator:id/eq' 
   },
 
   tocarNumero(num) {
