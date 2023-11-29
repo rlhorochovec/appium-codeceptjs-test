@@ -1,6 +1,9 @@
 # appium-codeceptjs-test
+[![appium-codeceptjs-test](https://github.com/rlhorochovec/appium-codeceptjs-test/actions/workflows/ci.yml/badge.svg)](https://github.com/rlhorochovec/appium-codeceptjs-test/actions/workflows/ci.yml)
 
 Projeto de automação de testes mobile utilizando Appium, Cucumber e CodeceptJS.
+
+Execução via GitHub Actions, device no BrowserStack e Allure Report no GitHub Pages.
 
 ## Dependências
 - CodeceptJS: 3.5.8
