@@ -18,14 +18,15 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
-      env:
-        BROWSERSTACK_APP: ${{ secrets.BROWSERSTACK_APP }}
-        BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
-        BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
     - run: |
           npm install
           npm i -g appium
           npx codeceptjs run --plugins allure
+      env:
+        CI: true
+        BROWSERSTACK_APP: ${{ secrets.BROWSERSTACK_APP }}
+        BROWSERSTACK_USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
+        BROWSERSTACK_ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
     
     - name: Get Allure history
       uses: actions/checkout@v2
