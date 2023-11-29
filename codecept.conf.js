@@ -1,3 +1,5 @@
+const { env } = require("process")
+
 exports.config = {
   output: './output',
   helpers: {
@@ -11,22 +13,15 @@ exports.config = {
       diffFolder: './tests/screenshots/diff/'
     },
     Appium: {
-      appiumV2: true,
-      app: '/home/xovec/code-workspace/appium-codeceptjs-test/app/calculator.apk',
-      desiredCapabilities: {
-        deviceName: 'jnxczdjra6zx45x4',
-        platformName: 'android',
-        platformVersion: '10.0',
-        automationName: 'UIAutomator2',
-        newCommandTimeout: 300000,
-        androidDeviceReadyTimeout: 300000,
-        androidInstallTimeout: 90000,
-        appWaitDuration: 300000,
-        autoGrantPermissions: true,
-        waitForIdleTimeout: 0,
-        disableWindowAnimation: true
-      }
-    }
+      app: process.env.BROWSERSTACK_APP,
+      host: "hub-cloud.browserstack.com",
+      port: 4444,
+      user: process.env.BROWSERSTACK_USERNAME,
+      key: process.env.BROWSERSTACK_ACCESS_KEY,
+		  platformName: 'android',
+		  deviceName: 'OnePlus 9',
+		  platformVersion: '11.0'
+    },
   },
   include: {
     I: './steps_file.js',
