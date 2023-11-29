@@ -20,7 +20,20 @@ Baixando as dependências
 Para rodar os testes, rode o seguinte comando
 
 ```bash
-  npx codeceptjs run --steps
+  npx codeceptjs run --plugins allure
+```
+
+## Relatório dos testes
+Gerar o Allure Report
+
+```bash
+  allure serve allure-results
+```
+
+Apagar o Allure Report de execuções anteriores
+
+```bash
+  allure generate --clean --output allure-results
 ```
 
 ## Referência

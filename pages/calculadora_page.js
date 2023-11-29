@@ -14,11 +14,11 @@ module.exports = {
     igual: '~igual' 
   },
 
-  tocarNumero(numA) {
-    I.tap('#com.google.android.calculator:id/digit_'+ numA +'')
+  tocarNumero(num) {
+    I.tap('#com.google.android.calculator:id/digit_'+ num +'')
   },
   
-  efetuarOperacao(operador, numB) {
+  tocarOperacao(operador) {
     switch (operador) {
         case "somar": 
             I.tap(this.buttons.mais); 
@@ -33,12 +33,9 @@ module.exports = {
             I.tap(this.buttons.multiplicar); 
             break;
     }
-    I.tap('#com.google.android.calculator:id/digit_'+ numB +'')
   },
 
   async validarResultado(total) {
-    I.saveScreenshot("Codecept_IO_Screenshot_Image.png")
-    
     I.tap(this.buttons.igual)
     const valor = await I.grabTextFrom(this.fields.total)
     I.assert(total, valor)
