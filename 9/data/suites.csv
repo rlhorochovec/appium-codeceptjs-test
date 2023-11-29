@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Nov 29 21:31:39 GMT 2023","Wed Nov 29 21:32:43 GMT 2023","64570","","Calculadora","","","","Operações Matemáticas {""a"":""7"",""b"":""3"",""operador"":""subtrair"",""total"":""4""}",""
+"failed","Wed Nov 29 21:31:39 GMT 2023","Wed Nov 29 21:34:19 GMT 2023","160346","","Calculadora","","","","Operações Matemáticas (FALHA PROPOSITAL)",""
+"passed","Wed Nov 29 21:31:39 GMT 2023","Wed Nov 29 21:32:11 GMT 2023","32752","","Calculadora","","","","Operações Matemáticas {""a"":""2"",""b"":""2"",""operador"":""somar"",""total"":""4""}",""
+"passed","Wed Nov 29 21:31:39 GMT 2023","Wed Nov 29 21:33:49 GMT 2023","130394","","Calculadora","","","","Operações Matemáticas {""a"":""8"",""b"":""9"",""operador"":""multiplicar"",""total"":""72""}",""
+"passed","Wed Nov 29 21:31:39 GMT 2023","Wed Nov 29 21:33:14 GMT 2023","95668","","Calculadora","","","","Operações Matemáticas {""a"":""9"",""b"":""3"",""operador"":""dividir"",""total"":""3""}",""
