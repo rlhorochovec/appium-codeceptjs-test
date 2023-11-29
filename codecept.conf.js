@@ -19,8 +19,8 @@ exports.config = {
       user: process.env.BROWSERSTACK_USERNAME,
       key: process.env.BROWSERSTACK_ACCESS_KEY,
 		  platformName: 'android',
-		  deviceName: 'OnePlus 9',
-		  platformVersion: '11.0'
+		  deviceName: 'Samsung Galaxy S22 Ultra',
+		  platformVersion: '12.0'
     },
   },
   include: {
