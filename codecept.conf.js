@@ -18,9 +18,9 @@ exports.config = {
       port: 4444,
       user: process.env.BROWSERSTACK_USERNAME,
       key: process.env.BROWSERSTACK_ACCESS_KEY,
-		  platformName: 'android',
-		  deviceName: 'OnePlus 9',
-		  platformVersion: '11.0'
+		  platform: 'android',
+		  device: 'Samsung Galaxy S22 Ultra',
+		  os_version: '12.0'
     },
   },
   include: {
