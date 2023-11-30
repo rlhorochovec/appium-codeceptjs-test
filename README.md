@@ -39,6 +39,19 @@ Apagar o Allure Report de execuções anteriores
   allure generate --clean --output allure-results
 ```
 
+Visualizar o Allure Report publicado
+[Visualizar](https://rlhorochovec.github.io/appium-codeceptjs-test/)
+
+## Execução BrowserStack
+[Visualizar](https://app-automate.browserstack.com/builds/062438b8a5cea4e094b6501bddb896d66648138b/sessions/6e5d4b33d190b5c320b75b1d35143496c5487f7b?auth_token=4814169cbe7e9581f53c04d7d1cac1c079323eb4ea5feed54a18c0ca4bf6db52)
+
+## Demonstração
+[Assistir vídeo da execução](https://youtu.be/8PlWhlCkkLg)
+
+## Screenshots
+<img src="https://github.com/rlhorochovec/appium-codeceptjs-test/blob/develop/Screenshots/github_actions.png" width="400" /> <img src="https://github.com/rlhorochovec/appium-codeceptjs-test/blob/develop/Screenshots/github_pages.png" width="400" />
+<img src="https://github.com/rlhorochovec/appium-codeceptjs-test/blob/develop/Screenshots/browserstack.png" width="400" />
+
 ## Referência
 
  - [Mobile Testing with Appium](https://codecept.io/mobile/#setting-up)
