@@ -49,8 +49,8 @@ Visualizar o Allure Report publicado
 [Assistir vídeo da execução](https://youtu.be/8PlWhlCkkLg)
 
 ## Screenshots
-<img src="https://github.com/rlhorochovec/codeceptjs-web-test/blob/develop/Screenshots/github_actions.png" width="400" /> <img src="https://github.com/rlhorochovec/codeceptjs-web-test/blob/develop/Screenshots/github_pages.png" width="400" />
-src="https://github.com/rlhorochovec/codeceptjs-web-test/blob/develop/Screenshots/browserstack.png" width="400" />
+<img src="https://github.com/rlhorochovec/appium-codeceptjs-test/blob/develop/Screenshots/github_actions.png" width="400" /> <img src="https://github.com/rlhorochovec/appium-codeceptjs-test/blob/develop/Screenshots/github_pages.png" width="400" />
+src="https://github.com/rlhorochovec/appium-codeceptjs-test/blob/develop/Screenshots/browserstack.png" width="400" />
 
 ## Referência
 
