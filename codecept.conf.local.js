@@ -13,14 +13,21 @@ exports.config = {
       diffFolder: './tests/screenshots/diff/'
     },
     Appium: {
-      app: process.env.BROWSERSTACK_APP,
-      host: "hub-cloud.browserstack.com",
-      port: 4444,
-      user: process.env.BROWSERSTACK_USERNAME,
-      key: process.env.BROWSERSTACK_ACCESS_KEY,
-		  platform: 'android',
-		  device: 'Samsung Galaxy S22 Ultra',
-		  os_version: '12.0'
+      appiumV2: true,
+      app: '/home/xovec/code-workspace/appium-codeceptjs-test/app/calculator.apk',
+      desiredCapabilities: {
+        deviceName: 'emulator-5554',
+        platformName: 'android',
+        platformVersion: '14.0',
+        automationName: 'UIAutomator2',
+        newCommandTimeout: 300000,
+        androidDeviceReadyTimeout: 300000,
+        androidInstallTimeout: 90000,
+        appWaitDuration: 300000,
+        autoGrantPermissions: true,
+        waitForIdleTimeout: 0,
+        disableWindowAnimation: true
+      }
     },
   },
   include: {
