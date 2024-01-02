@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 02 12:08:27 GMT 2024","Tue Jan 02 12:09:29 GMT 2024","61627","","Calculadora","","","","Operações Matemáticas {""a"":""7"",""b"":""3"",""operador"":""subtrair"",""total"":""4""}",""
+"passed","Tue Jan 02 12:08:27 GMT 2024","Tue Jan 02 12:10:38 GMT 2024","130758","","Calculadora","","","","Operações Matemáticas {""a"":""8"",""b"":""9"",""operador"":""multiplicar"",""total"":""72""}",""
+"passed","Tue Jan 02 12:08:27 GMT 2024","Tue Jan 02 12:08:58 GMT 2024","30876","","Calculadora","","","","Operações Matemáticas {""a"":""2"",""b"":""2"",""operador"":""somar"",""total"":""4""}",""
+"passed","Tue Jan 02 12:08:27 GMT 2024","Tue Jan 02 12:10:03 GMT 2024","95163","","Calculadora","","","","Operações Matemáticas {""a"":""9"",""b"":""3"",""operador"":""dividir"",""total"":""3""}",""
