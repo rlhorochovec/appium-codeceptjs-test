@@ -10,10 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "allure-codeceptjs": "^2.9.2",
+    "allure-codeceptjs": "^2.10.0",
     "codeceptjs": "^3.5.8",
     "codeceptjs-assert": "^0.0.5",
     "codeceptjs-resemblehelper": "^1.9.7",
-    "webdriverio": "^8.6.3"
+    "webdriverio": "^8.27.0"
   }
 }
