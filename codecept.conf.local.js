@@ -1,5 +1,3 @@
-const { env } = require("process")
-
 exports.config = {
   output: './output',
   helpers: {
@@ -14,7 +12,7 @@ exports.config = {
     },
     Appium: {
       appiumV2: true,
-      app: '/home/xovec/code-workspace/appium-codeceptjs-test/app/calculator.apk',
+      app: 'D:/dev/code-workspace/appium-codeceptjs-test/app/calculator.apk',
       desiredCapabilities: {
         deviceName: 'emulator-5554',
         platformName: 'android',
